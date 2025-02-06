@@ -10,6 +10,7 @@ import { protectRoute } from '../middleware/auth.route.js';
 
 const router = express.Router();
 
+// Define the routes
 router.post('/signup', signup);
 router.post('/login', login);
 router.post('/logout', logout);
